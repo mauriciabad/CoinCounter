@@ -6,11 +6,49 @@
     <meta name="description" content="Count how many euro do you have and how much are them worth.">
   </head>
   <body>
-    <h1>Upload a photo</h1>
-    <form class="upload-photo" action="countCoins.js" method="post">
+    <header>
+      <h1>Pic the coins you have</h1>
+    </header>
+    <div class="coins-div">
+      <figure class="coin-figure">
+        <img class="coin-img" src="1EUR.png">
+        <figcaption class="coin-value">€1</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="2EUR.png">
+        <figcaption class="coin-value">€2</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="05EUR.png">
+        <figcaption class="coin-value">€0.5</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="02EUR.png">
+        <figcaption class="coin-value">€0.2</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="01EUR.png">
+        <figcaption class="coin-value">€0.1</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="005EUR.png">
+        <figcaption class="coin-value">€0.05</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="002EUR.png">
+        <figcaption class="coin-value">€0.02</figcaption>
+      </figure>
+      <figure class="coin-figure">
+        <img class="coin-img" src="001EUR.png">
+        <figcaption class="coin-value">€0.01</figcaption>
+      </figure>
+    </div>
+    <div class="wallet">
+
+    </div>
+    <form action="countCoins.js" method="post">
       <input type="file" name="myImage" accept="image/x-png,image/gif,image/jpeg"> <br>
       <input type="submit" value="Submit">
     </form>
-    <p id="value-display">€5.65</p>
   </body>
 </html>
