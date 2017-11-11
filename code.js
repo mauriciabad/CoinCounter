@@ -1,15 +1,5 @@
-var http = require("http"),
-	fs = require("fs");
+$('.coin-img').draggable({ revert: "valid" });
 
-var html = fs.readFileSync("./index.html"); //
-
-
-
-var funIndex = function(sol, res){
-	res.write(html);
-	res.end();
-};
-
-var servidor = http.createServer(funIndex);
-
-servidor.listen(8080);
+$('#wallet').droppable({
+	accept: ".wallet"
+});
