@@ -23,7 +23,7 @@ body{
   margin-bottom: 30vh;
 }
 
-.wallet{
+#wallet{
   position: absolute;
   bottom: 0;
   height: 30vh;
