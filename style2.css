@@ -1,0 +1,31 @@
+.header{
+  color: white;
+  font-size: 1em;
+  background-color: Crimson;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  background-color: Crimson;
+}
+.logo{
+  height: 5em;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(50vh - 7.5em);
+  left: calc(50vw - 2.5em);
+  margin: auto;
+}
+.logo2{
+  height: 2.5em;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(50vh - 2.5em);
+  left: calc(50vw - 6em);
+  margin: auto;
+}
