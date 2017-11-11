@@ -1,8 +1,7 @@
 .header{
-  color: LightCoral;
+  color: white;
   font-size: 1em;
-  font-family: 'Abril Fatface', cursive;
-  background-color: Lavender;
+  background-color: teal;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
   margin: 0;
   padding: 1em;
@@ -10,26 +9,31 @@
 
 body{
   margin: 0;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
-*{
-   font-family: 'Abril Fatface', cursive;
-   background-color: #fefefe;
-}
 .coin-img{
   width: 5em;
   margin: 1em;
+  background-color: none;
 }
 
 .coins-div{
   text-align: center;
+  margin-bottom: 30vh;
 }
 
 .wallet{
   position: absolute;
   bottom: 0;
+  height: 30vh;
+  background-color: #5a876d;
+  width: 100vw;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
 
 h1{
   margin: 0em;
+  font-size: 1.5em;
+  font-weight: 300;
 }
