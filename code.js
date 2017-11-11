@@ -1,5 +1,10 @@
-$('.coin-img').draggable({ revert: "valid" });
+$(".coin-img").draggable();
 
-$('#wallet').droppable({
-	accept: ".wallet"
+$( "#droppable" ).droppable({
+	drop: function( event, ui ) {
+		$( this )
+			.addClass( "ui-state-highlight" )
+			.find( "p" )
+			.html( "Dropped!" );
+	}
 });
