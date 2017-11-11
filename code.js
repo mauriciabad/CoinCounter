@@ -1,4 +1,4 @@
-$(".coin-img").draggable();
+$(".coin-img").draggable({ revert: true});
 
 $( "#droppable" ).droppable({
 	drop: function( event, ui ) {

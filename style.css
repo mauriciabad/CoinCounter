@@ -1,20 +1,22 @@
 .header{
   color: white;
   font-size: 1em;
-  background-color: teal;
+  background-color: Crimson;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
   margin: 0;
+  margin-bottom: 1em;
   padding: 1em;
 }
 
 body{
   margin: 0;
   font-family: 'Open Sans', 'Roboto', sans-serif;
+  background-color: #fde8ec;
 }
 
 .coin-img{
-  width: 5em;
-  margin: 1em;
+  width: 6em;
+  margin: 0.5em;
   background-color: none;
   z-index: 2;
   border-radius: 50%;
@@ -29,7 +31,7 @@ body{
   position: absolute;
   bottom: 0;
   height: 10em;
-  background-color: #5a876d;
+  background-color: #a30f2d;
   width: 100vw;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
 }
@@ -49,4 +51,13 @@ h1{
   margin: 0em;
   font-size: 1.5em;
   font-weight: 300;
+  vertical-align:middle;
+  display: inline-block;
+  text-align: center;
+}
+.logo{
+  height: 3em;
+  margin-right: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
 }
