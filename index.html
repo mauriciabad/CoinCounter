@@ -12,15 +12,16 @@
       <h1>Pick the coins you have</h1>
     </header>
     <div class="coins-div">
-      <img class="coin-img" src="coins/EUR/2.png">
-      <img class="coin-img" src="coins/EUR/1.png">
-      <img class="coin-img" src="coins/EUR/05.png">
-      <img class="coin-img" src="coins/EUR/02.png">
-      <img class="coin-img" src="coins/EUR/01.png">
-      <img class="coin-img" src="coins/EUR/005.png">
-      <img class="coin-img" src="coins/EUR/002.png">
-      <img class="coin-img" src="coins/EUR/001.png">
+      <img class="coin-img" src="coins/EUR/2.png" onclick="add('2');">
+      <img class="coin-img" src="coins/EUR/1.png" onclick="add('1');">
+      <img class="coin-img" src="coins/EUR/05.png" onclick="add('0.5');">
+      <img class="coin-img" src="coins/EUR/02.png" onclick="add('0.2');">
+      <img class="coin-img" src="coins/EUR/01.png" onclick="add('0.1');">
+      <img class="coin-img" src="coins/EUR/005.png" onclick="add('0.05');">
+      <img class="coin-img" src="coins/EUR/002.png" onclick="add('0.02');">
+      <img class="coin-img" src="coins/EUR/001.png" onclick="add('0.01');">
     </div>
+    <p id="display-value">£0.00</p>
     <div id="wallet"></div>
     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
