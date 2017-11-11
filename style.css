@@ -1,0 +1,10 @@
+.header{
+  color: LightCoral;
+  font-size: 1em;
+  font-family: 'Abril Fatface', cursive;
+  background: Blue no-repeat fixed center;
+}
+*{
+   font-family: 'Abril Fatface', cursive;
+   background: Lavender no-repeat fixed center;
+}
