@@ -7,7 +7,10 @@
   </head>
   <body>
     <h1>Upload a photo</h1>
-    <button type="button" name="button">Upload</button>
+    <form class="upload-photo" action="countCoins.js" method="post">
+      <input type="file" name="myImage" accept="image/x-png,image/gif,image/jpeg"> <br>
+      <input type="submit" value="Submit">
+    </form>
     <p id="value-display">€5.65</p>
   </body>
 </html>
