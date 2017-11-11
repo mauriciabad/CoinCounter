@@ -14,6 +14,7 @@ $( "#droppable" ).droppable({
 
 var total = 0.00;
 
-function add(var value){
-	total += value;
+function add(value){
+	total += value * 0.8843442;
+	document.getElementById('display-value').innerHTML = "£" + total.toFixed(2);
 }

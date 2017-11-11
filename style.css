@@ -28,7 +28,7 @@ body{
 }
 
 #wallet{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 10em;
   background-color: #a30f2d;
@@ -42,7 +42,7 @@ body{
   box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
   float: left;
   margin: 1em;
-  position: absolute;
+  position: fixed;
   bottom: 10em;
   padding: 0.5em;
 }
