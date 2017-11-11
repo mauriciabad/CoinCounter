@@ -2,9 +2,34 @@
   color: LightCoral;
   font-size: 1em;
   font-family: 'Abril Fatface', cursive;
-  background-color: Blue;
+  background-color: Lavender;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  margin: 0;
+  padding: 1em;
 }
+
+body{
+  margin: 0;
+}
+
 *{
    font-family: 'Abril Fatface', cursive;
-   background: Lavender no-repeat fixed center;
+   background-color: #fefefe;
+}
+.coin-img{
+  width: 5em;
+  margin: 1em;
+}
+
+.coins-div{
+  text-align: center;
+}
+
+.wallet{
+  position: absolute;
+  bottom: 0;
+}
+
+h1{
+  margin: 0em;
 }
