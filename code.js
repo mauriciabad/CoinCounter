@@ -1,4 +1,4 @@
-/*$(".coin-img").draggable({ revert: true});
+$(".coin-img").draggable({ revert: true});
 $(".coin-img-wallet").draggable({ revert: true});
 
 $("#wallet").droppable({
@@ -13,7 +13,7 @@ $("#coins-div").droppable({
     drop: function(event,ui){
         reset(ui.draggable.get(0));
     }
-});*/
+});
 
 var total = 0.00;
 var coins = {2: 0, 1: 0, 0.5: 0, 0.2: 0, 0.1: 0, 0.05: 0, 0.02: 0, 0.01: 0};
