@@ -11,7 +11,8 @@ $("#wallet").droppable({
 var total = 0.00;
 var coins = {2: 0, 1: 0, 0.5: 0, 0.2: 0, 0.1: 0, 0.05: 0, 0.02: 0, 0.01: 0};
 
-function add(value){
+function add(coin){
+	var value = coin.getAttribute("data-value");
 	coins[value]++;
 	total += value * 0.8843442;
 	document.getElementById('display-value').innerHTML = "£" + total.toFixed(2);

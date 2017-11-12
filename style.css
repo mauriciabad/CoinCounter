@@ -17,9 +17,15 @@ body{
 .coin-img{
   width: 6em;
   margin: 0.5em;
-  background-color: none;
+  border-radius: 50%;
+}
+
+.coin-img-wallet{
+  width: 5em;
+  margin: 0.5em;
   z-index: 2;
   border-radius: 50%;
+  display: inline-block;
 }
 
 .coins-div{
@@ -30,10 +36,14 @@ body{
 #wallet{
   position: fixed;
   bottom: 0;
-  height: 10em;
+  padding: 0;
+  height: 7.5em;
   background-color: #a30f2d;
   width: 100vw;
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  overflow: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 #display-value{
@@ -43,8 +53,22 @@ body{
   float: left;
   margin: 1em;
   position: fixed;
-  bottom: 10em;
+  bottom: 7.5em;
   padding: 0.5em;
+}
+
+.number-coins{
+  background-color: red;
+  border-radius: 50%;
+  color: red;
+  padding: 0.5em;
+  position: relative;
+  bottom: 0;
+  right: 1em;
+}
+
+.wallet-coin{
+  position: absolute;
 }
 
 h1{
