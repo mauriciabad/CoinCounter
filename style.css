@@ -61,3 +61,7 @@ h1{
   display: inline-block;
   vertical-align: middle;
 }
+.camera{
+  height: 3em;
+  float: right;
+}

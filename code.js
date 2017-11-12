@@ -1,6 +1,5 @@
 $(".coin-img").draggable({ revert: true});
 
-
 $("#wallet").droppable({
     accept: ".coin-img",
     drop: function(event,ui){
@@ -8,10 +7,6 @@ $("#wallet").droppable({
         $("#wallet").append(new_coin);
     }
 });
-
-
-
-
 
 var total = 0.00;
 var coins = {2: 0, 1: 0, 0.5: 0, 0.2: 0, 0.1: 0, 0.05: 0, 0.02: 0, 0.01: 0};
