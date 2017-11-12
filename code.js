@@ -2,16 +2,14 @@ $(".coin-img").draggable({ revert: true});
 $(".coin-img-wallet").draggable({ revert: true});
 
 $("#wallet").droppable({
-    accept: ".coin-img",
     drop: function(event,ui){
-        add(ui.draggable);
+        add(ui.draggable.get(0));
     }
 });
 
 $("#coins-div").droppable({
-    accept: ".coin-img-wallet",
     drop: function(event,ui){
-        reset(ui.draggable);
+        reset(ui.draggable.get(0));
     }
 });
 
@@ -39,6 +37,7 @@ function reset(coin){
 	var value = coin.getAttribute("data-value");
 	total -= coins[value] * value * 0.8843442;
 	coins[value] = 0;
+  showCoins();
 }
 
 function showCoins() {
