@@ -65,25 +65,3 @@ function showCoins() {
     currentCoin.childNodes[3].innerHTML = coins[i];
 }
 }
-/*
-var isDragging = false;
-var startingPos = [];
-$(".selector")
-    .mousedown(function (evt) {
-        isDragging = false;
-        startingPos = [evt.pageX, evt.pageY];
-    })
-    .mousemove(function (evt) {
-        if (!(evt.pageX === startingPos[0] && evt.pageY === startingPos[1])) {
-            isDragging = true;
-        }
-    })
-    .mouseup(function () {
-        if (isDragging) {
-            console.log("Drag");
-        } else {
-            console.log("Click");
-        }
-        isDragging = false;
-        startingPos = [];
-    });*/
