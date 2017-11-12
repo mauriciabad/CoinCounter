@@ -18,6 +18,7 @@ body{
   width: 6em;
   margin: 0.5em;
   border-radius: 50%;
+  z-index: 4;
 }
 
 .coin-img-wallet{
@@ -76,19 +77,13 @@ body{
 
 h1{
   margin: 0em;
-  font-size: 1.5em;
+  font-size: 1.45em;
   font-weight: 300;
   vertical-align:middle;
   display: inline-block;
   text-align: center;
 }
-.logo{
-  height: 3em;
-  margin-right: 0.5em;
-  display: inline-block;
-  vertical-align: middle;
-}
 .camera{
-  height: 3em;
+  height: 2em;
   float: right;
 }
